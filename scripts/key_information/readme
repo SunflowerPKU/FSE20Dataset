@@ -1,0 +1,15 @@
+```├── data.csv```: the dataset we collected.
+
+```├── data.txt```: the results data.
+
+```├── idf_dic.txt```: the relevance score of each word in the training data.
+
+```├── idf_generator.py```: the program that computes the relevance score from the training data.
+
+```├── readdata.py```: the program that helps read the results (```python3 readdata.py {1|0} {target keyword}```, where ```1``` denotes the GFIs that have been solved and ```0``` denotes the GFIs that have not been solved).
+
+```├── stop_words.txt```: the stop words we deleted when computing the relevance of words.
+
+```├── tf_idf.py```: the program that computes the relevance words.
+
+```└── train.txt```: the training data.
